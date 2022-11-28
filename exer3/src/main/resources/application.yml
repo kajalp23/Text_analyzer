@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: exer3
+
+netty:
+  default:
+    allocator:
+      max-order: 3
