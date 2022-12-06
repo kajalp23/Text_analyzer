@@ -1,8 +1,11 @@
 micronaut:
+server:
+  cors:
+    enabled: true
+  single-header: true
+
   application:
     name: textAnalyzer
-  server:
-    port: 8089
 netty:
   default:
     allocator:
